@@ -7,6 +7,7 @@ body {
   /* margin o and width */
   margin: 0 0;
   font-family: "Raleway";
+  color: #3f4345;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -79,6 +80,10 @@ li {
   list-style-type: none;
 }
 
+h1, h2 {
+  color: #000000;
+}
+
 .top-head {
   margin: 0 auto;
   padding: 10px;
@@ -143,15 +148,16 @@ footer {
   /* background: dimgray; */
 }
 
-
+/* Footer Social */
 .social {
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   gap: 10px;
   font-size: 2em;
   order: 1;
-  color: #3f4345;
+  /* color: #000000; */
   /* text-shadow: 1px 1px 2px black, 0 0 25px #3f4345, 0 0 5px #000000; */
 }
 
@@ -159,6 +165,8 @@ footer {
   display: flex;
   text-align: center;
   justify-content: flex-start;
+  /* font-weight: bold; */
+  /* color: #000000; */
 
 }
 
@@ -171,9 +179,39 @@ footer {
 }
 
 .fa-square-github:hover {
-  color: #2b3137;
+  color: #24292e;
 }
 
 .fa-discord:hover {
   color: #7289da;
+}
+
+/* Article Boxes */
+
+.box1 {
+  /* border: 2px solid dimgray;
+  padding: ; */
+}
+
+/* Aside Styles */
+
+.side2 {
+
+  padding: 200px 80px 200px;
+  text-align: center;
+
+  color: white;
+  background: darkgray;
+}
+
+.side3 {
+  padding: 50px 80px 50px;
+  text-align: center;
+  color: white;
+  background: darkgray;
+}
+
+#gap {
+  display: grid;
+  grid-gap: 10px;
 }
