@@ -1,6 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap'); */
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;600;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;600;800&display=swap");
 
 /* Reset */
 body {
@@ -50,7 +50,6 @@ body {
 }
 
 @media screen and (max-width: 980px) {
-
   .grid-container {
     margin: auto;
     width: 100%;
@@ -71,7 +70,6 @@ body {
     font-size: 2.5em;
   }
 }
-
 
 /* Styles */
 ul,
@@ -95,19 +93,16 @@ h2 {
   align-items: center;
 }
 
-
 header {
   grid-column: span 3;
   text-align: center;
   border-bottom: 1px solid #ccc1a8;
   /* background: dimgray; */
-
 }
 
 nav {
   padding: 30px;
   border-right: 1px solid #ccc1a8;
-
 }
 
 nav li {
@@ -168,11 +163,11 @@ footer {
   justify-content: flex-start;
   /* font-weight: bold; */
   /* color: #000000; */
-
 }
 
+/* FA Icons Hover Color */
 .fa-square-facebook:hover {
-  color: #4267B2;
+  color: #4267b2;
 }
 
 .fa-linkedin:hover {
@@ -189,30 +184,54 @@ footer {
 
 /* Article Boxes */
 
-.box1 {
-  /* border: 2px solid dimgray;
-  padding: ; */
+#article-wrapper {
+  display: grid;
+  grid-gap: 20px;
 }
 
-/* Aside Styles */
-
-.side2 {
-
-  padding: 200px 80px 200px;
-  text-align: center;
-
-  color: white;
-  background: darkgray;
+.a2 {
+  border-top: 2px solid #f7f3ef;
 }
 
-.side3 {
+/* API Styles */
+
+#api-wrapper {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.api-l1 {
+  margin-top: 20px;
   padding: 50px 80px 50px;
   text-align: center;
   color: white;
   background: darkgray;
 }
 
-#gap {
-  display: grid;
-  grid-gap: 10px;
+.api-l2 {
+  padding: 200px 80px 200px;
+  text-align: center;
+  color: white;
+  background: darkgray;
+}
+
+.api-r1 {
+  padding: 200px 80px 200px;
+  text-align: center;
+  color: white;
+  background: darkgray;
+}
+
+.api-r2 {
+  padding: 50px 80px 50px;
+  text-align: center;
+  color: white;
+  background: darkgray;
+}
+
+.api-r3 {
+  padding: 50px 80px 50px;
+  text-align: center;
+  color: white;
+  background: darkgray;
 }
